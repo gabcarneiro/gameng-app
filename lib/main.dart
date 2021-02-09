@@ -6,6 +6,9 @@ import 'modules/game_details/game_details_page.dart';
 void main() {
   runApp(
     GetMaterialApp(
+      theme: ThemeData(
+        fontFamily: 'Quicksand',
+      ),
       home: GameDetailsPage(),
     ),
   );
