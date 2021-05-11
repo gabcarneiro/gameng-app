@@ -1,6 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:gameng/presenter/game_details/widgets/sliver_game_cover_image_widget.dart';
 
 class GameDetailsPage extends StatelessWidget {
   const GameDetailsPage({Key key}) : super(key: key);
@@ -10,14 +11,9 @@ class GameDetailsPage extends StatelessWidget {
     return Scaffold(
       body: CustomScrollView(
         slivers: [
-          SliverAppBar(
-            expandedHeight: 160,
-            backgroundColor: Colors.white,
-            flexibleSpace: CachedNetworkImage(
-              fit: BoxFit.cover,
-              imageUrl:
-                  'https://nexushub.co.za/images/gallery/00010/10546_8-_thunderjaws_are_scary.jpg',
-            ),
+          SliverGameCoverImageWidget(
+            imageUrl:
+                'https://nexushub.co.za/images/gallery/00010/10546_8-_thunderjaws_are_scary.jpg',
           ),
           SliverFillRemaining(
             child: Container(
