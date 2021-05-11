@@ -22,9 +22,9 @@ environment:
 
 dependencies:
   cached_network_image: ^2.5.0
+  flutter_rating_bar: ^3.2.0+1
   flutter:
     sdk: flutter
-  get: ^3.24.0
 
 
   # The following adds the Cupertino Icons font to your application.
