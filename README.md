@@ -1,6 +1,6 @@
 # Gameng App
 
-A studying purposes Flutter app.
+A studying purposes (mostly layout for now) Flutter app.
 
 ### Inspiration
 
