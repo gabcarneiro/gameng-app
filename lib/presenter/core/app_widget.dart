@@ -5,7 +5,7 @@ import '../game_details/game_details_page.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override

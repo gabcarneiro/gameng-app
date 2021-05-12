@@ -4,7 +4,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 class GameStoresWidget extends StatelessWidget {
   const GameStoresWidget({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -30,7 +30,7 @@ class GameStoresWidget extends StatelessWidget {
                   'Epic Games',
                   style: Theme.of(context)
                       .textTheme
-                      .subtitle2
+                      .subtitle2!
                       .copyWith(fontWeight: FontWeight.w800),
                 ),
                 SizedBox(height: 8.0),
@@ -69,7 +69,7 @@ class GameStoresWidget extends StatelessWidget {
                   'Epic Games',
                   style: Theme.of(context)
                       .textTheme
-                      .subtitle2
+                      .subtitle2!
                       .copyWith(fontWeight: FontWeight.w800),
                 ),
                 SizedBox(height: 8.0),

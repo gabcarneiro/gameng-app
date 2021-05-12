@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class GameTitleWidget extends StatelessWidget {
   const GameTitleWidget({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -16,12 +16,12 @@ class GameTitleWidget extends StatelessWidget {
             Text(
               'Horizon: New Dawn',
               style:
-                  Theme.of(context).textTheme.subtitle1.copyWith(fontSize: 18),
+                  Theme.of(context).textTheme.subtitle1!.copyWith(fontSize: 18),
             ),
             Padding(padding: EdgeInsets.symmetric(vertical: 4.0)),
             Text(
               'Guerilla & Playstation',
-              style: Theme.of(context).textTheme.subtitle2.copyWith(
+              style: Theme.of(context).textTheme.subtitle2!.copyWith(
                     color: Color(0xFF808B9E),
                     fontSize: 16,
                   ),

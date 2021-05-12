@@ -6,7 +6,7 @@ import 'widgets/game_overview_widget.dart';
 import 'widgets/game_stores_widget.dart';
 
 class GameDetailsPage extends StatelessWidget {
-  const GameDetailsPage({Key key}) : super(key: key);
+  const GameDetailsPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -51,8 +51,8 @@ class _CoverImageWidget extends StatelessWidget {
   final String imageUrl;
 
   const _CoverImageWidget({
-    @required this.imageUrl,
-    Key key,
+    required this.imageUrl,
+    Key? key,
   }) : super(key: key);
 
   @override
