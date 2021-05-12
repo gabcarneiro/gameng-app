@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:gameng/presenter/game_details/widgets/game_title_widget.dart';
+import 'package:gameng/presenter/games/game_details/widgets/game_title_widget.dart';
 
 import 'widgets/game_overview_widget.dart';
 import 'widgets/game_stores_widget.dart';
