@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gameng/presenter/core/theme/gameng_theme.dart';
-import 'package:gameng/presenter/games/game_details/game_details_page.dart';
+import 'package:gameng/ui/core/theme/gameng_theme.dart';
+import 'package:gameng/ui/games/game_details/game_details_page.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({
