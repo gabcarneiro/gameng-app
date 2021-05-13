@@ -4,6 +4,6 @@ import 'ui/core/app_widget.dart';
 
 void main() {
   runApp(
-    AppWidget(),
+    const AppWidget(),
   );
 }

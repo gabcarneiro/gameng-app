@@ -11,7 +11,7 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: GamengTheme.themeData,
-      home: GameDetailsPage(),
+      home: const GameDetailsPage(),
     );
   }
 }

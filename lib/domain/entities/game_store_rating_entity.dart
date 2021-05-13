@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
-import 'package:gameng/domain/entities/game_entity.dart';
-import 'package:gameng/domain/entities/game_store_entity.dart';
+
+import 'game_store_entity.dart';
 
 class GameStoreRatingEntity extends Equatable {
   final double rating;

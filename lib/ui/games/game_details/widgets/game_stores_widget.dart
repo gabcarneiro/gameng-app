@@ -22,7 +22,7 @@ class GameStoresWidget extends StatelessWidget {
                 height: 48,
               ),
             ),
-            SizedBox(width: 24),
+            const SizedBox(width: 24),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -33,14 +33,14 @@ class GameStoresWidget extends StatelessWidget {
                       .subtitle2!
                       .copyWith(fontWeight: FontWeight.w800),
                 ),
-                SizedBox(height: 8.0),
-                Text('Availiable'),
+                const SizedBox(height: 8.0),
+                const Text('Availiable'),
               ],
             ),
-            Spacer(),
+            const Spacer(),
             RatingBarIndicator(
               rating: 5,
-              itemBuilder: (context, index) => Icon(
+              itemBuilder: (context, index) => const Icon(
                 Icons.star,
                 color: Color(0xFF252579),
               ),
@@ -49,7 +49,7 @@ class GameStoresWidget extends StatelessWidget {
             ),
           ],
         ),
-        SizedBox(height: 24),
+        const SizedBox(height: 24),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -61,7 +61,7 @@ class GameStoresWidget extends StatelessWidget {
                 height: 48,
               ),
             ),
-            SizedBox(width: 24),
+            const SizedBox(width: 24),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -72,14 +72,14 @@ class GameStoresWidget extends StatelessWidget {
                       .subtitle2!
                       .copyWith(fontWeight: FontWeight.w800),
                 ),
-                SizedBox(height: 8.0),
-                Text('Availiable'),
+                const SizedBox(height: 8.0),
+                const Text('Availiable'),
               ],
             ),
-            Spacer(),
+            const Spacer(),
             RatingBarIndicator(
               rating: 5,
-              itemBuilder: (context, index) => Icon(
+              itemBuilder: (context, index) => const Icon(
                 Icons.star,
                 color: Color(0xFF252579),
               ),

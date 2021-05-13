@@ -18,25 +18,25 @@ class GameTitleWidget extends StatelessWidget {
               style:
                   Theme.of(context).textTheme.subtitle1!.copyWith(fontSize: 18),
             ),
-            Padding(padding: EdgeInsets.symmetric(vertical: 4.0)),
+            const Padding(padding: EdgeInsets.symmetric(vertical: 4.0)),
             Text(
               'Guerilla & Playstation',
               style: Theme.of(context).textTheme.subtitle2!.copyWith(
-                    color: Color(0xFF808B9E),
+                    color: const Color(0xFF808B9E),
                     fontSize: 16,
                   ),
             ),
           ],
         ),
         MaterialButton(
-          child: Icon(
+          child: const Icon(
             Icons.favorite,
             color: Colors.white,
           ),
           color: Theme.of(context).primaryColor,
           onPressed: () {},
-          shape: CircleBorder(),
-          padding: EdgeInsets.all(8),
+          shape: const CircleBorder(),
+          padding: const EdgeInsets.all(8),
         ),
       ],
     );

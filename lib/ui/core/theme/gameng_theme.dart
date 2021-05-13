@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class GamengTheme {
   static final themeData = ThemeData(
     fontFamily: 'Quicksand',
-    primaryColor: Color(0xFF6A5CD5),
+    primaryColor: const Color(0xFF6A5CD5),
     textTheme: _GamengTextTheme.textTheme,
   );
 }
@@ -43,25 +43,25 @@ class _GamengTextTheme {
       fontSize: 16,
       fontWeight: FontWeight.w400,
       letterSpacing: 0.15,
-      color: Color(0xFF162B46),
+      color: const Color(0xFF162B46),
     ),
     subtitle2: GoogleFonts.quicksand(
       fontSize: 14,
       fontWeight: FontWeight.w500,
       letterSpacing: 0.1,
-      color: Color(0xFF162B46),
+      color: const Color(0xFF162B46),
     ),
     bodyText1: GoogleFonts.quicksand(
       fontSize: 16,
       fontWeight: FontWeight.w400,
       letterSpacing: 0.5,
-      color: Color(0xFF8994a6),
+      color: const Color(0xFF8994a6),
     ),
     bodyText2: GoogleFonts.quicksand(
       fontSize: 14,
       fontWeight: FontWeight.w400,
       letterSpacing: 0.25,
-      color: Color(0xFF8994a6),
+      color: const Color(0xFF8994a6),
     ),
     button: GoogleFonts.quicksand(
       fontSize: 14,

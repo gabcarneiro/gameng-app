@@ -13,7 +13,7 @@ class GameDetailsPage extends StatelessWidget {
     return Scaffold(
       body: CustomScrollView(
         slivers: [
-          SliverAppBar(
+          const SliverAppBar(
             expandedHeight: 160,
             backgroundColor: Colors.white,
             flexibleSpace: _CoverImageWidget(
@@ -31,11 +31,11 @@ class GameDetailsPage extends StatelessWidget {
                 ),
                 child: Column(
                   children: [
-                    GameTitleWidget(),
-                    SizedBox(height: 32),
-                    GameOverviewWidget(),
-                    SizedBox(height: 32),
-                    GameStoresWidget(),
+                    const GameTitleWidget(),
+                    const SizedBox(height: 32),
+                    const GameOverviewWidget(),
+                    const SizedBox(height: 32),
+                    const GameStoresWidget(),
                   ],
                 ),
               ),
