@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:gameng/ui/games/game_details/widgets/game_title_widget.dart';
 
 import 'widgets/game_overview_widget.dart';
 import 'widgets/game_stores_widget.dart';
+import 'widgets/game_title_widget.dart';
 
 class GameDetailsPage extends StatelessWidget {
   const GameDetailsPage({Key? key}) : super(key: key);

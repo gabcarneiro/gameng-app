@@ -1,8 +1,8 @@
 import 'package:equatable/equatable.dart';
 
-import 'package:gameng/domain/entities/game_developer_entity.dart';
-import 'package:gameng/domain/entities/game_description_entity.dart';
-import 'package:gameng/domain/entities/game_store_rating_entity.dart';
+import 'game_description_entity.dart';
+import 'game_developer_entity.dart';
+import 'game_store_rating_entity.dart';
 
 class GameEntity extends Equatable {
   final int id;
