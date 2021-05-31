@@ -1,7 +1,6 @@
-import 'package:gameng/modules/games/external/serializers/game_store_serializer.dart';
-
 import '../../../core/external/serializers/serializer.dart';
 import '../../domain/entities/game_store_rating_entity.dart';
+import 'game_store_serializer.dart';
 
 class GameStoreRatingKeys {
   static const rating = 'rating';

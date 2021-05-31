@@ -3,5 +3,6 @@ include: package:very_good_analysis/analysis_options.2.0.0.yaml
 linter:
   rules:
     overridden_fields: false
+    prefer_relative_imports: true
     public_member_api_docs: false
     sort_constructors_first: false

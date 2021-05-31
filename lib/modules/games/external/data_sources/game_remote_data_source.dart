@@ -1,8 +1,7 @@
-import 'package:gameng/modules/games/external/data_sources/mock_responses.dart';
-import 'package:gameng/modules/games/external/serializers/game_serializer.dart';
-
 import '../../domain/entities/game_entity.dart';
 import '../../infra/data_sources/game_remote_data_source.dart';
+import '../serializers/game_serializer.dart';
+import 'mock_responses.dart';
 
 class GameRemoteDataSourceImpl implements GameRemoteDataSource {
   final _gameSerializer = GameSerializer();
