@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
+import 'theme/gameng_theme.dart';
+
 class AppWidget extends StatelessWidget {
   const AppWidget({
     Key? key,
@@ -8,8 +10,9 @@ class AppWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       initialRoute: '/',
+      theme: GamengTheme.themeData,
     ).modular();
   }
 }
