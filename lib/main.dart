@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'modules/core/app_widget.dart';
+import 'modules/core/ui/app_widget.dart';
 
 void main() {
   runApp(
