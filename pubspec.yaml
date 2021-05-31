@@ -23,6 +23,7 @@ environment:
 dependencies:
   cached_network_image: ^3.0.0
   equatable: ^2.0.0
+  flutter_modular: ^3.2.2+1
   flutter_rating_bar: ^4.0.0
   flutter:
     sdk: flutter
